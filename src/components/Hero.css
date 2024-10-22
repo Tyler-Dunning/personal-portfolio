@@ -1,0 +1,44 @@
+.hero {
+    height: 100vh;
+    background-image: url('golfcourseimage.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .hero-content h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .cta-button {
+    padding: 1rem 2rem;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #e67e22;
+  }
+  
